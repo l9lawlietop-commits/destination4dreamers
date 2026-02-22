@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Packages | Destination4Dreamers</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script defer src="script.js"></script>
+
+
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <img src="logo.png" alt="Destination4Dreamers">
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+  </nav>
+</header>
+
+<section class="packages-section">
+  <div class="packages-wrapper">
+
+<h2>Explore Our Premium Packages</h2>
+
+<div class="search-bar">
+<input type="text" placeholder="Search destination...">
+<button>Search</button>
+</div>
+
+<!-- MALDIVES -->
+<div class="package-card">
+<img src="images/maldives.png">
+<div class="package-content">
+<div>
+<h3>Maldives Luxury Escape</h3>
+<div class="package-sub">5 Nights / 6 Days | Water Villa Experience</div>
+<div class="package-features">
+✔ Overwater villa stay<br>
+✔ Speedboat transfers<br>
+✔ Private candlelight dinner<br>
+✔ Snorkeling & island hopping<br>
+✔ Complimentary breakfast
+</div>
+</div>
+<div class="package-bottom">
+<div class="package-price">₹1,85,000 / Couple</div>
+<button class="book-btn" onclick="openForm()">Book Now</button>
+</div>
+</div>
+</div>
+
+<!-- BALI -->
+<div class="package-card">
+<img src="images/bali.png">
+<div class="package-content">
+<div>
+<h3>Bali Experience</h3>
+<div class="package-sub">6 Nights / 7 Days | Culture + Beach</div>
+<div class="package-features">
+✔ Ubud + Seminyak stay<br>
+✔ Temple & waterfall tours<br>
+✔ Private driver<br>
+✔ Romantic beach dinner
+</div>
+</div>
+<div class="package-bottom">
+<div class="package-price">₹1,20,000 / Couple</div>
+<button class="book-btn" onclick="openForm()">Book Now</button>
+</div>
+</div>
+</div>
+
+<!-- DUBAI -->
+<div class="package-card">
+<img src="images/dubai.png">
+<div class="package-content">
+<div>
+<h3>Dubai Premium Tour</h3>
+<div class="package-sub">4 Nights / 5 Days | Luxury City Escape</div>
+<div class="package-features">
+✔ Burj Khalifa access<br>
+✔ Desert safari<br>
+✔ Dhow cruise dinner<br>
+✔ 4★ hotel stay
+</div>
+</div>
+<div class="package-bottom">
+<div class="package-price">₹95,000 / Person</div>
+<button class="book-btn" onclick="openForm()">Book Now</button>
+</div>
+</div>
+</div>
+
+<!-- EUROPE -->
+<div class="package-card">
+<img src="images/europe.png">
+<div class="package-content">
+<div>
+<h3>Europe Explorer</h3>
+<div class="package-sub">10 Nights / 11 Days | Multi-Country Tour</div>
+<div class="package-features">
+✔ Paris, Rome & Switzerland<br>
+✔ Eiffel Tower & Colosseum<br>
+✔ Scenic train journeys<br>
+✔ Guided city tours
+</div>
+</div>
+<div class="package-bottom">
+<div class="package-price">₹2,40,000 / Person</div>
+<button class="book-btn" onclick="openForm()">Book Now</button>
+</div>
+</div>
+</div>
+
+<!-- THAILAND -->
+<div class="package-card">
+<img src="images/thailand.png">
+<div class="package-content">
+<div>
+<h3>Thailand Adventure</h3>
+<div class="package-sub">5 Nights / 6 Days | Phuket + Krabi</div>
+<div class="package-features">
+✔ Island hopping tours<br>
+✔ Beach resort stay<br>
+✔ Local nightlife experience<br>
+✔ Airport transfers
+</div>
+</div>
+<div class="package-bottom">
+<div class="package-price">₹85,000 / Person</div>
+<button class="book-btn" onclick="openForm()">Book Now</button>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- BOOKING MODAL -->
+
+<div class="form-popup" id="bookingForm">
+<div class="form-box">
+<h3>Start Your Dream Journey</h3>
+<input type="text" placeholder="Full Name">
+<input type="email" placeholder="Email">
+<input type="tel" placeholder="Phone Number">
+<textarea placeholder="Travel dates, destination & number of travelers"></textarea>
+<button>Submit Inquiry</button>
+<span onclick="closeForm()" style="text-align:center;cursor:pointer;">Close</span>
+</div>
+</div>
+
+</body>
+</html>
