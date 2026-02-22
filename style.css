@@ -632,3 +632,32 @@ height:250px;
 width:100%;
 }
 }
+/* ===== Flights & Hotels Addition (SAFE ADD-ON) ===== */
+
+.mini-note{
+font-size:13px;
+opacity:0.7;
+margin-top:5px;
+}
+
+.button-group{
+display:flex;
+gap:12px;
+flex-wrap:wrap;
+}
+
+.secondary-btn{
+padding:12px 22px;
+background:white;
+color:#0A1F44;
+border:2px solid #FF7A00;
+border-radius:8px;
+cursor:pointer;
+font-weight:500;
+transition:0.3s ease;
+}
+
+.secondary-btn:hover{
+background:#FF7A00;
+color:white;
+}
