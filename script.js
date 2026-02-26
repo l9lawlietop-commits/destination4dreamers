@@ -22,3 +22,13 @@ navbar.classList.add("shrink");
 navbar.classList.remove("shrink");
 }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const logo = document.querySelector('.logo img');
+    if (logo) {
+        logo.addEventListener('click', function(e) {
+            e.preventDefault();
+            window.location.href = 'index.html';
+        });
+    }
+});
