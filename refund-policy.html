@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Refund Policy | Destination4Dreamers</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+.policy-hero { 
+  background: linear-gradient(rgba(10,31,68,0.9), rgba(10,31,68,0.9)), url('hero1.png'); 
+  background-size: cover; 
+  background-position: center;
+  color: white; 
+  text-align: center; 
+  padding: 150px 20px 100px; 
+}
+.policy-content { 
+  background: white; 
+  color: #0A1F44; 
+  padding: 60px; 
+  margin: 0 auto; 
+  max-width: 900px; 
+  border-radius: 20px; 
+  box-shadow: 0 20px 60px rgba(0,0,0,0.1); 
+  line-height: 1.8; 
+}
+.policy-content h3 { 
+  color: #FF7A00; 
+  font-size: 1.6rem; 
+  margin: 35px 0 20px; 
+  border-left: 4px solid #FF7A00; 
+  padding-left: 20px; 
+}
+.refund-table { margin: 30px 0; }
+.refund-table th, .refund-table td { padding: 15px; text-align: left; border-bottom: 1px solid #eee; }
+.refund-table th { background: #f8f9fa; font-weight: 600; }
+@media (max-width: 768px) { 
+  .policy-content { padding: 40px 20px; margin: 20px; } 
+  .refund-table { font-size: 14px; }
+}
+</style>
+</head>
+<body>
+<header class="navbar">
+  <div class="logo"><img src="logo.png" alt="Destination4Dreamers"></div>
+  <nav><a href="index.html">Home</a></nav>
+</header>
+
+<section class="policy-hero">
+  <h1>Refund Policy</h1>
+  <p>Updated: February 27, 2026</p>
+</section>
+
+<section style="padding: 80px 0; background: #f8f9fa;">
+  <div class="policy-content">
+    <h3>Refund Processing Time</h3>
+    <p><strong>Refunded amount will be credited in 5-7 working days</strong> to the original payment method (bank account/UPI/card).</p>
+
+    <h3>Cancellation Charges</h3>
+    <table class="refund-table">
+      <tr><th>Period Before Travel</th><th>Cancellation Charge</th></tr>
+      <tr><td>Within 48 hours of booking</td><td>Free cancellation</td></tr>
+      <tr><td>15-30 days prior</td><td>25% of package cost</td></tr>
+      <tr><td>7-14 days prior</td><td>50% of package cost</td></tr>
+      <tr><td>Less than 7 days</td><td>No refund</td></tr>
+    </table>
+
+    <h3>Non-Refundable Items</h3>
+    <ul>
+      <li>Air tickets (once issued)</li>
+      <li>Visa processing fees</li>
+      <li>Travel insurance premiums</li>
+      <li>Accommodation booking fees</li>
+      <li>Service charges</li>
+    </ul>
+
+    <h3>Refund Process</h3>
+    <ol>
+      <li>Email cancellation request to <a href="mailto:info@destination4dreamers.com">info@destination4dreamers.com</a></li>
+      <li>Provide booking ID and reason for cancellation</li>
+      <li>Receive confirmation within 24 hours</li>
+      <li>Refund processed within 5-7 working days</li>
+    </ol>
+
+    <h3>Contact</h3>
+    <p>+91 7567561138 | <a href="mailto:info@destination4dreamers.com">info@destination4dreamers.com</a></p>
+  </div>
+</section>
+
+<footer class="footer-enhanced">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <p><strong>Refund:</strong> Credited in <span class="orange">5-7 working days</span> (original payment mode)</p>
+        <p><strong>Contact:</strong> +91 7567561138 | <a href="mailto:info@destination4dreamers.com">info@destination4dreamers.com</a></p>
+      </div>
+      <div class="footer-policies">
+        <a href="privacy-policy.html">Privacy Policy</a> |
+        <a href="terms-conditions.html">Terms & Conditions</a> |
+        <a href="refund-policy.html">Refund Policy</a>
+      </div>
+      <div>
+        <p>305 Dev Prime, Opp. Metrics Tower<br>Makarba, Ahmedabad, Gujarat</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const logo = document.querySelector('.logo img');
+    if (logo) logo.addEventListener('click', () => window.location.href = 'index.html');
+});
+</script>
+</body>
+</html>
